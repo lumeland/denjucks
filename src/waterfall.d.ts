@@ -23,5 +23,5 @@ type Task =
 declare function waterfall(
   tasks: Task[],
   callback?: WaterfallCallback,
-  forceAsync?: boolean
+  forceAsync?: boolean,
 ): void;
