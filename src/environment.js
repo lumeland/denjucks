@@ -1,6 +1,6 @@
 "use strict";
 
-import { asap, path, waterfall } from "./deps.js";
+import { path, waterfall } from "./deps.js";
 
 import lib from "./lib.js";
 import Obj from "./object.js";
@@ -20,7 +20,7 @@ builtin_loaders.PrecompiledLoader = PrecompiledLoader__export.exports;
 // If the user is using the async API, *always* call it
 // asynchronously even if the template was synchronous.
 function callbackAsap(cb, err, res) {
-  asap(function () {
+  queueMicrotask(function () {
     cb(err, res);
   });
 }
