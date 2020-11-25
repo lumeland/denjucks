@@ -1,7 +1,8 @@
 "use strict";
 
-import { path, waterfall } from "./deps.js";
+import { path } from "./deps.js";
 
+import waterfall from "./waterfall.js";
 import lib from "./lib.js";
 import Obj from "./object.js";
 import compiler from "./compiler.js";
