@@ -1,3 +1,8 @@
+# DEPRECATED
+
+> Use https://github.com/valtlai/nunjucks-deno instead
+> Also registered in https://deno.land/x/nunjucks
+
 # Denjucks
 
 Denjucks is a powerful templating language and engine for Deno applications, and provides an easy syntax for making scalable web applications using Deno.
