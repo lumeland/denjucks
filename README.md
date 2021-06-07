@@ -1,7 +1,7 @@
 # DEPRECATED
 
 > Use https://github.com/valtlai/nunjucks-deno instead
-> Also registered in https://deno.land/x/nunjucks
+
 
 # Denjucks
 
